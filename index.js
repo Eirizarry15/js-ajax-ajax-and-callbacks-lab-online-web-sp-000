@@ -1,6 +1,6 @@
 $(document).ready(function (){
     Handlebars.registerPartial('repositoryTemplate', $('#repository-template')[0].innerHTML);
-    // export let searchPathBase = 'https://api.github.com/search/repositories?q='
+     //export let searchPathBase = 'https://api.github.com/search/repositories?q='
     // export let Handlebars = Handlebars;
 });
 const searchPathBase = 'https://api.github.com/search/repositories?q=';
